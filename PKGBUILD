@@ -15,8 +15,7 @@ source=('LICENSE' 'README' 'config.def.h' 'config.mk' 'Makefile' 'dwm.1' 'dwm.c'
 md5sums=('SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP' 'SKIP')
 
 prepare() {
-  cd $srcdir/$pkgname-$pkgver
-  cp $srcdir/config.h config.h
+	:
 }
 
 build() {
